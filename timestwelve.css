@@ -1,0 +1,220 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Roboto, HelveticaNeue, Arial, sans-serif;
+}
+
+body {
+    min-height: 100%;
+    width: auto;
+    background-color: black;
+    color: white;
+}
+
+.mainBody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #1d1d1e;
+    padding: 96px 0 80px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap: 80px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.center {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.topCenter {
+    display: flex;
+    gap: 16px;
+}
+
+.frame {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    background-color: rgb(34, 34, 35);
+    height: 328px;
+    width: 284px;
+    padding: 24px;
+    border-radius: 24px;
+}
+
+.frameTop {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.img {
+    height: 60px;
+    width: 60px;
+}
+
+.framerDcsuvl {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.framerP {
+    color: white;
+    line-height: 150%;
+    opacity: 0.4;
+    height: 68px;
+    width: 236px;
+}
+
+.framebottom {
+    place-content: center;
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: row nowrap;
+    gap: 8px;
+    height: min-content;
+    overflow: visible;
+    padding: 0px;
+    position: relative;
+    width: min-content;
+}
+
+.download {
+    background-color: rgba(255, 255, 255, 0.06);
+    opacity: 1;
+    border-radius: 16px;
+    box-shadow: none;
+    width: 135px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    /* padding: 16px 20px; */
+    border: none;
+}
+
+.site {
+    height: 48px;
+    width: 70px;
+    background-color: rgba(255, 255, 255, 0.04);
+    opacity: 1;
+    border-radius: 16px;
+    border: none;
+}
+
+.downloadP {
+    color: white;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+
+.imgapple {
+    height: 16px;
+    width: 13px;
+}
+
+.footerF {
+    display: flex;
+    flex-direction: column;
+    gap: 264px;
+}
+
+.email {
+    display: flex;
+    gap: 12px;
+}
+
+.emailInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    background: rgb(38, 38, 39);
+    width: 321px;
+    height: 67px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4em;
+    padding: 0px 0px 0px 20px;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 1px transparent;
+    border: none;
+    outline: none;
+    opacity: 0.5;
+}
+
+.signupButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 67px;
+    width: 106px;
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;
+    opacity: 1;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.linkdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.link {
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.3;
+}
+
+/*------------------------ Hover -------------------------*/
+
+.frame:hover {
+    box-shadow: 10px 10px 10px -14px rgb(255, 255, 255);
+}
+
+.signupButton:hover {
+    /* background-color: #323233; */
+    opacity: 0.8;
+}
+
+.download:hover {
+    background-color: white;
+    box-shadow: 7px 6px 28px -11px rgba(255, 253, 253, 0.73);
+}
+
+.download:hover span {
+    color: black;
+}
